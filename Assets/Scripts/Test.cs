@@ -1,7 +1,8 @@
-public class Test
+using UnityEngine.UI;
+using UnityEngine;
+public class Test:MonoBehaviour
 {
-    public void Debug()
-    {
-        //this is test script
-    }
+    void Start(){
+        Debug.Log(" hello imac unity ");        
+    }    
 }
